@@ -1,0 +1,22 @@
+$main-txt-color: blacl;
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-size-adjust: 15px;
+}
+    &_menu{
+    display: flex;
+    flex-direction: row;
+    }
+    &_para1{
+    width: 635px;
+    height: 251px;
+    left: 125px;
+    margin-top: 180px;        
+    }
+    &_para2{
+    width: 212px;
+    height: 34px;
+    left: 950px;
+    margin-top: 374px;        
+    }
