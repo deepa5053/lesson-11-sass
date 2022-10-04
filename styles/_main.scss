@@ -69,11 +69,12 @@ margin-top: 170px;
 height: 260px;
 width: 100%;
 max-width: 335px;
-margin-left: 230px;
+margin-left: 240px;
 font-size: 25px;
     &_one{
         color: gray;
-        display: inline;
+        display: flex;
+        flex-direction: row;
     }
 }
 .left-right{
@@ -81,7 +82,8 @@ display: flex;
 flex-direction: row;
 }
 .woman{
-margin-top: 50px;
+margin-top: 100px;
+margin-left: 50px;
 }
 .main-para{
 max-width: 1109px;
@@ -94,5 +96,5 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 margin-left: 50px;
-margin-right: 150px;
+margin-right: 175px;
 }
