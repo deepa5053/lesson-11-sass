@@ -1,3 +1,4 @@
+$main-txt-color: gray;
 .main{
 display: flex;
 flex-direction: row;
@@ -35,4 +36,63 @@ line-height: 23px;
 color: #111111;
 margin-left: 150px;
 }
+}
+.title{
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+margin-top: 150px;
+
+&_main{
+    font-size: 40px;
+    max-width: 400px;
+    width: 100%;
+    height: 100px;
+}
+&_text{
+    max-width: 500px;
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+}
+&_subtext{
+    max-width: 500px;
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+}
+}
+.main-content{
+display: flex;
+justify-content: flex-end;
+margin-top: 170px;
+height: 260px;
+width: 100%;
+max-width: 335px;
+margin-left: 230px;
+font-size: 25px;
+    &_one{
+        color: gray;
+        display: inline;
+    }
+}
+.left-right{
+display: flex;
+flex-direction: row;
+}
+.woman{
+margin-top: 50px;
+}
+.main-para{
+max-width: 1109px;
+width: 100%;
+height: 93px; 
+margin-left: 50px;
+}
+.pictures{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 50px;
+margin-right: 150px;
 }
