@@ -1,4 +1,4 @@
-$main-txt-color: gray;
+$main-txt-color: rgb(184, 179, 179);
 .main{
 display: flex;
 flex-direction: row;
@@ -65,14 +65,14 @@ margin-top: 150px;
 .main-content{
 display: flex;
 justify-content: flex-end;
-margin-top: 170px;
+margin-top: 200px;
 height: 260px;
 width: 100%;
 max-width: 335px;
 margin-left: 240px;
 font-size: 25px;
     &_one{
-        color: gray;
+        color: $main-txt-color;
         display: flex;
         flex-direction: row;
     }
@@ -90,11 +90,53 @@ max-width: 1109px;
 width: 100%;
 height: 93px; 
 margin-left: 50px;
+margin-top: 50px;
 }
 .pictures{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-around;
+margin-right: 300px;
 margin-left: 50px;
-margin-right: 175px;
+}
+.full-main{
+margin-top: 100px;
+margin-left: 50px;
+display: flex;
+flex-direction: column;
+}
+.full{
+margin-top: 50px;
+font-size: 50px;
+max-width: 475px;
+width: 100%;
+height: 174px;
+}
+.our{
+    margin-top: 50px;
+    max-width: 445px;
+    width: 100%;
+    height: 56px
+}
+.full-form{
+display: flex;
+flex-direction: row;
+}
+.form{
+display: flex;
+flex-direction: column;
+margin-top: 200px;
+margin-left: 300px;
+width: 100%;
+max-width: 300px;
+height: 291px;
+}
+.btn-1{
+color: white;
+background-color: blue;
+margin-top: 50px;
+}
+.btn-1:hover{
+border: 10px solid;
+background-color: aliceblue;
 }
